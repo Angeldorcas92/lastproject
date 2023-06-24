@@ -1,14 +1,34 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+// import firebase from 'firebase/compat/app';
+// import 'firebase/compat/auth';
+
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAuzECe72BiwbTKn9Kdh84qWqe1nT2Xn5g",
+//     authDomain: "mommysos-c6dd7.firebaseapp.com",
+//     projectId: "mommysos-c6dd7",
+//     storageBucket: "mommysos-c6dd7.appspot.com",
+//     messagingSenderId: "757736510184",
+//     appId: "1:757736510184:web:c4f659e4bb625b38f72f5d",
+//     measurementId: "G-28H30VXNDK"
+// };
+
+// firebase.initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>
+  </Router>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
