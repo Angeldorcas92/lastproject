@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import {getData} from './api/apiService';
+import {getData} from './api/apiServices';
 import { createUser } from "./api/create";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

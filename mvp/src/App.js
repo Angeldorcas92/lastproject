@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
-import Register from '../pages/Register';
-import Login from '../pages/Login';
+import Register from './pages/Register';
+import Login from './pages/Login';
 import image from './Assets/logo.png';
 import Navbar from './pages/navbar';
 import Form from './pages/form';
@@ -12,7 +12,7 @@ import Breastfeeding from './pages/breastfeeding';
 import Postpartum from './pages/postpartum';
 import Newborn from './pages/newborncare';
 import Mother from './pages/motherandchild';
-import Services from './pages/services';
+import Services from './pages/service';
 import Contact from './pages/contact';
 import Dos from './pages/does&don\'ts';
 import About from './pages/about';
@@ -21,9 +21,9 @@ import Dropdown from './pages/dropdown';
 import Vaginaldelivery from './pages/vaginal';
 import CS from './pages/cs';
 import Rout from './Routes/routes';
-import AuthProvider from './pages/authentication';
+// import AuthProvider from './pages/authentication';
 import { Axios } from 'axios';
-import MyComponent from './pages/mycomponenet';
+// import MyComponent from './pages/mycomponenet';
 
 
 

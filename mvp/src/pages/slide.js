@@ -3,7 +3,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './slide.css';
-import './slide-theme.css';
+// import './slide-theme.css';
 const Slideshow = () => {
     const settings = {
         dots: true,

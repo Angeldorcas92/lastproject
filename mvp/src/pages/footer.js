@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 import './footer.css';
 
 const Footer = () => {
@@ -17,7 +20,7 @@ const Footer = () => {
         </p>
         <div className="footer-social-icons">
           <Link to="https://web.facebook.com/profile.php?id=100093488914515" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook"></i>
+          <FontAwesomeIcon icon={faFacebook} />
           </Link>
         </div>
       </div>
